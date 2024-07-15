@@ -1,0 +1,12 @@
+CREATE TABLE JOB
+ (job_id Varchar(10),
+ job_title  Varchar(20) ,
+ min_sal INT,
+ max_sal INT
+ );
+ INSERT INTO JOB VALUES ('IT_PROG','Programmer',40000,100000);
+ INSERT INTO JOB VALUES ('MK_MGR','Marketing manager',90000,150000);
+ INSERT INTO JOB VALUES ('FI_MGR','Finance manager',82000,120000);
+ INSERT INTO JOB VALUES ('FI_ACC','Account',42000,90000);
+ INSERT INTO JOB VALUES ('LEC','Lecturer',6000,170000);
+ INSERT INTO JOB VALUES ('COMP_OP','Computer Operator',15000,30000);
